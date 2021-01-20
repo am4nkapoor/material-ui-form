@@ -1,0 +1,11 @@
+.Header{
+    border-bottom : 1px solid #ccc;
+    padding: 12px 15px;
+    height: 30px;
+}
+.FloatLeft{
+    float:left;
+}
+.FloatRight{
+    Float:right;
+}

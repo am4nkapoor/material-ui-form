@@ -1,0 +1,10 @@
+.MuiFilledInput-inputMarginDense{
+    padding-top: 10.5px !important;
+    padding-bottom: 10.5px !important;
+}
+.MuiFilledInput-adornedEnd{
+    border-radius: 4px !important;
+}
+.MarginSpacing{
+    margin-top: 15px;
+}
