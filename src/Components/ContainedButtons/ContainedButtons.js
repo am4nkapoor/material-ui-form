@@ -13,7 +13,9 @@ const useStyles = makeStyles((theme) => ({
 const style = {
   display: 'flex',
   justifyContent: 'flex-end',
-  borderTop: '1px solid #ccc'
+  borderTop: '1px solid #ccc',
+  width: '98%',
+  paddingTop: '10px'
 }  
 
 export default function ContainedButtons() {

@@ -7,8 +7,9 @@ import './EmployeesForm.css'
 const useStyles = makeStyles((theme) => ({
     root: {
       '& .MuiTextField-root': {
-        margin: theme.spacing(2),
+        margin: theme.spacing(1),
         marginLeft: theme.spacing(0),
+        marginRight: theme.spacing(2),
         width: '37ch',
       },
     },
@@ -146,7 +147,7 @@ export default function EmployeesForm(){
             </div>
        </div>
         {/* Row 5 */}
-        <div className="MarginSpacing">
+        <div className="MarginSpacing MarginSpacingBottom">
             <div style={firstColStyle}>Pay Settings</div>
             <div>
                 <TextField 
